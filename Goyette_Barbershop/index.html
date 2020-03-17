@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body">
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
@@ -38,10 +38,10 @@
           <a class="nav-link text-light" href="#about">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#people">People</a>
+          <a class="nav-link text-light" href="#people">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#about">Gallery</a>
+          <a class="nav-link text-light" href="#about">Reviews</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#about">Contact</a>
@@ -52,7 +52,7 @@
 
   <!-- Jumboton -->
   <div class="jumbotron jumbotron-fluid text-center mb-0">
-    <h1 class="display-4 text-light">Goyette's Barbershop</h1>
+    <h1 class="display-4 text-danger">Goyette's Barbershop</h1>
     <h2>
       <div class="container">
         <h2 class="text-light">Current breakpoint is:
@@ -64,68 +64,75 @@
         </h2>
       </div>
     </h2>
-    <p class="lead text-light">Goyette's Barbershop is a newly renovated men's barbershop located in the heart of
+    <p class="lead text-primary">Goyette's Barbershop is a newly renovated men's barbershop located in the heart of
       University Heights. 14 Winspear , Buffalo, Ny, 14214</p>
 
-    <!-- forms -->
+    <!-- Schedule button -->
     <div class="container">
-      <form>
+      <button type="button" class="btn btn-outline-danger">Schedule an Appointment</button>
     </div>
   </div>
   <!-- Form/Jumbotron ends here -->
-  <div class="container-fluid bg-success" id="about">
+
+
+  <div class="container-fluid bg-success text-center" id="about">
     <div class="text-wrap">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus amet recusandae rerum dicta quam.
-      Dignissimos dolorum atque facere harum? Delectus.
+      <div class="container ">
+        Put hours and contact info here HOURS:
+        Mon-Thurs 10AM-9PM
+        Fri 10AM-7PM
+        Sat 8AM-6PM
+        Sun 9AM-5PM
+      </div>
+
     </div>
   </div>
-  <!-- Cards start here -->
-  <div class="container mt-3" id="people">
-    <div class="row">
-      <!-- card 1 -->
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img
-            src="https://images.unsplash.com/photo-1531226208074-94fb5a1bb26c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-            class="card-img-top img-fluid" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-danger mx-auto d-block">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <!-- card 2 -->
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img
-            src="https://images.unsplash.com/photo-1545251142-f32339076e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-            class="card-img-top img-fluid" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary mx-auto d-block">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <!-- card 3 -->
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img
-            src="https://images.unsplash.com/photo-1528844433838-6115c9c13a14?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-            class="card-img-top img-fluid" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-success mx-auto d-block">Go somewhere</a>
-          </div>
-        </div>
-      </div>
+
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-yelp"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
     </div>
-  </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Jonathan Goyette
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
   <!-- Jquery CDN for Bootstrap -->
   <div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -140,24 +147,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
   </div>
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-  </script>
-
-  <!-- bootsrap Javascript -->
-  <div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <!-- End Bootstrap Javascript -->
-  </div>
-</body>
+  </body>
 
 </html>
