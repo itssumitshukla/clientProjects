@@ -15,3 +15,7 @@ body {
   background-repeat: repeat;
   background-position: center;
 }
+
+.logoT {
+  border-radius: 50%;
+}
