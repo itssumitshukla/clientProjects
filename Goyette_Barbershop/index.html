@@ -5,14 +5,156 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Goyette Barbershop</title>
-  <link rel="shortcut icon" type="image/png" href="logo.png">
+  <link rel="shortcut icon" type="image/png" href="images/logo.png">
   <!-- bootsrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- Font awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="Logo" width="40" class="d-inline-block align-top" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#people">People</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link" href="#">Boilerplate---Center</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- Jumboton -->
+  <div class="jumbotron jumbotron-fluid text-center mb-0">
+    <h1 class="display-4">Hello, world!</h1>
+    <h2>
+      <div class="container">
+        <h2>Current breakpoint is:
+          <span class="d-inline d-sm-none text-danger">XS</span>
+          <span class="d-none d-sm-inline d-md-none text-warning">SM</span>
+          <span class="d-none d-md-inline d-lg-none text-success">MD</span>
+          <span class="d-none d-lg-inline d-xl-none text-info">LG</span>
+          <span class="d-none d-xl-inline text-primary">XL</span>
+        </h2>
+      </div>
+    </h2>
+    <p class="lead">Sample Jumbotron informaton here.</p>
+    <!-- forms -->
+    <div class="container">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    </div>
+  </div>
+  <!-- Form/Jumbotron ends here -->
+  <div class="container-fluid bg-success" id="about">
+    <div class="text-wrap">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus amet recusandae rerum dicta quam.
+      Dignissimos dolorum atque facere harum? Delectus.
+    </div>
+  </div>
+  <!-- Cards start here -->
+  <div class="container mt-3" id="people">
+    <div class="row">
+      <!-- card 1 -->
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1531226208074-94fb5a1bb26c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+            class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-danger mx-auto d-block">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1545251142-f32339076e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+            class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary mx-auto d-block">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1528844433838-6115c9c13a14?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-success mx-auto d-block">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jquery CDN for Bootstrap -->
+  <div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <!-- POpper CDN for Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap Script -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+  </div>
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
 
   <!-- bootsrap Javascript -->
   <div>
