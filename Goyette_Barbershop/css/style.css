@@ -1,4 +1,12 @@
-logoImg {
-  height: 16px;
-  width: 16rem;
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.jumbotron {
+  background-image: url("/images/chairs.jpeg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
 }
