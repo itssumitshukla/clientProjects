@@ -25,6 +25,11 @@ body {
   width: 300px;
   height: 300px;
   position: relative;
-  /* top: -50px;
-  left: 50px; */
+}
+
+/* Media Query: iPhone (Vertical) */
+@media screen and (max-width: 376px) {
+  .outer {
+    width: 95vw;
+  }
 }
