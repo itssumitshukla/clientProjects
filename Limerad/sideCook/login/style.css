@@ -27,6 +27,10 @@ body {
   position: relative;
 }
 
+.bhov:hover{
+  filter: brightness(90%);
+}
+
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
   .outer {
