@@ -1,7 +1,16 @@
 //
 let registerr = document.getElementById('register');
-registerr.addEventListener('click', loadPage);
+let signIn = document.getElementById('signIn');
 
-function loadPage(){
+registerr.addEventListener('click', loadRegPage);
+signIn.addEventListener('click', loadSignPage);
+
+function loadRegPage(){
  window.location.href = '/register/register.html';
 };
+
+function loadSignPage(){
+  window.location.href = '/signin/signin.html';
+ };
+
+ console.log(signIn);
